@@ -1,9 +1,9 @@
-import React from 'react'
+import PageContent from '../components/PageContent';
 
 export default function HomePage() {
   return (
-    <div>
-      This is the home page
-    </div>
-  )
+    <>
+      <PageContent title="welcome to home page">This is the home page</PageContent>
+    </>
+  );
 }
